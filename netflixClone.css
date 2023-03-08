@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "ROBOTO", sans-serif;
+    overflow: hidden;
+}
+.container {
+    background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("PH-en-20230227-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    
+}
+.logo img {
+    height: 45px;
+    width: 310px;
+    height: 145px;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: -30px;
+}
+.input-container {
+    width: 450px;
+    height: 660px;
+    margin-top: -110px;
+    position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Sign {
+    color:White;
+    top: 60px;
+    left: 68px;
+    position: absolute;
+}
+.input-email {
+    position: absolute;
+    top: 125px;
+    left: 68px;
+}
+.input-email input {
+    background-color: rgb(51, 51, 51);
+    border: none;
+    width: 314px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 400;
+    border-radius: 4px;
+    outline: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.input-email input::placeholder {
+    color: rgb(140, 140, 140);
+    margin-left: 20px;
+}
+.input-Password {
+    position: absolute;
+    top: 190px;
+    left: 68px;
+    
+}
+.input-Password input::placeholder {
+    color: rgb(140, 140, 140);
+    margin-left: 20px;
+}
+.input-Password input {
+    background-color: rgb(51, 51, 51);
+    border: none;
+    width: 314px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 400;
+    border-radius: 4px;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:white;
+}
+.sign-In button {
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    border: none;
+    width: 314px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 400;
+    border-radius: 4px;
+    font-weight: 500;
+}
+.sign-In {
+    position: absolute;
+    margin-top: -50px;
+    left: 68px;
+}
+.checkbox {
+    color:White;
+    position: absolute;
+}
+.checkbox input {
+    position: absolute;
+    left: -157px;
+    margin-top: 25px;
+    width: 18px;
+    height: 21.59px;
+    background-color: rgb(51, 51, 51);
+    color: rgb(51, 51, 51);
+}
+.checkbox label {
+    position: absolute;
+    font-size: 13px;
+    width: 100px;
+    top: 31px;
+    left: -135px;
+    color: rgba(179, 179, 179, 1);
+}
+.checkbox a {
+    text-decoration: none;
+    position: absolute;
+    font-size: 13px;
+    width: 100px;
+    right: -192px;
+    top: 31px;
+    color:rgba(179, 179, 179, 1);
+}
+.checkbox a:hover {
+    text-decoration: underline;
+} 
+.new {
+    position: absolute;
+    color: red;
+    margin-top: 125px;
+    left: 68px;
+    color: rgba(115, 115, 115, 1);
+}
+.new span{
+    color:white;
+    transition: text-decoration 0.15s;
+    cursor: pointer;
+}
+.new span:hover {
+    text-decoration: underline;
+}
+.captcha {
+    position: absolute;
+    color: white;
+    margin-top: 160px;
+    left: 68px;
+    font-size: 13px;
+    color: rgb(140, 140, 140);
+
+}
+.captcha span {
+    color: blue;
+}
+.bottom-navigator {
+    position: absolute;
+    background-color: red(0, 0, 0,);
+    color: rgba(115, 115, 115, 1);
+    bottom: 0;
+    height: 130px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.contact {
+    position: absolute;
+    margin-left: -790px;
+    top: 30px;
+}
+.contact a {
+    color: rgba(115, 115, 115, 1);
+    font-size: 16px;
+    text-decoration: none;
+}
+.contact a:hover {
+    text-decoration: underline;
+}
+.faq {
+    position: absolute;
+    margin-left: -920px;
+    margin-top: 40px;
+
+}
+.faq a {
+    font-size: 14px;
+    color: rgba(115, 115, 115, 1);
+    text-decoration: none;
+}
+.faq a:hover {
+    text-decoration: underline;
+}
+.cookie {
+    margin-left: -820px;
+    position: absolute;
+    margin-top: 110px;
+}
+.cookie a {
+    font-size: 14px;
+    color: rgba(115, 115, 115, 1);
+    text-decoration: none;
+}
+.cookie a:hover {
+    text-decoration: underline;
+}
+.Help {
+    position: absolute;
+    margin-left: -440px;
+    margin-top: 40px;
+}
+.Help a {
+    font-size: 13px;
+    color: rgba(115, 115, 115, 1);
+    text-decoration: none;
+}
+.Help a:hover {
+    text-decoration: underline;
+}
+.corporate {
+    margin-left: -380px;
+    position: absolute;
+    margin-top: 110px;
+}
+.corporate a {
+    font-size: 13px;
+    color: rgba(115, 115, 115, 1);
+    text-decoration: none;
+}
+.corporate a:hover {
+    text-decoration: underline;
+}
+.Terms {
+    position: absolute;
+    margin-top: 40px;
+}
+.Terms a {
+    font-size: 13px;
+    color: rgba(115, 115, 115, 1);
+    text-decoration: none;
+}
+.Terms a:hover {
+    text-decoration: underline;
+}
+.Privacy {
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 40px;
+}
+.Privacy a {
+    font-size: 13px;
+    color: rgba(115, 115, 115, 1);
+    text-decoration: none;
+}
+.Privacy a:hover {
+    text-decoration: underline;
+}
+.tools {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 750px){
+    .container {
+        min-height: 100%;
+        min-width: 100%;
+    }
+    .bottom-navigator {
+       
+      padding-left: 250px;
+    }
+}
+@media (min-width: 320px){
+    .container {
+        min-height: 100%;
+        min-width: 100%;
+    }
+    
+}
